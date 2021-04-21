@@ -1,0 +1,9 @@
+from tinydb import TinyDB, Query
+db = TinyDB('db.json')
+
+Print("Please choose an option:")
+Print("Type 1 to: Create a new tournament")
+Print("Type 2 to: Continue a tournament")
+Print("Type 3 to: Create a new player")
+Print("Type 4 to: Generate a report")
+Print("Type 5 to: Quit")
